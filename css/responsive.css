@@ -1,0 +1,148 @@
+@media (max-width: 575.98px) {
+  .header {
+    width: 560px;
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+  .right-basket {
+    display: none;
+  }
+  .header-next-row {
+    background-image: url('../img/mobile.png');
+    background-size: cover;
+  }
+  .header-next-row .container {
+    width: 560px;
+    max-width: 100%;
+  }
+  nav {
+    display: none;
+  }
+  .main h2 {
+    text-align: center;
+  }
+  .main {
+    width: 560px;
+    max-width: 100%;
+  }
+  .footer {
+    width: 560px;
+    max-width: 100%;
+  }
+  .footer__row4 p {
+    padding-bottom: 0.5rem;
+  }
+  .pointer-fixed {
+    top: 83%;
+    left: 83%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header {
+    width: 560px;
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+  .right-basket {
+    display: none;
+  }
+  .header-next-row {
+    background-image: url('../img/mobile.png');
+    background-size: cover;
+  }
+  .header-next-row .container {
+    width: 560px;
+    max-width: 100%;
+  }
+  nav {
+    display: none;
+  }
+  .main h2 {
+    text-align: center;
+  }
+  .main {
+    width: 560px;
+    max-width: 100%;
+  }
+  .footer {
+    width: 560px;
+    max-width: 100%;
+  }
+  .footer__row4 p {
+    padding-bottom: 0.5rem;
+  }
+  .pointer-fixed {
+    top: 83%;
+    left: 83%;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    width: 752px;
+    max-width: 100%;
+  }
+  .header-next-row .container {
+    width: 752px;
+    max-width: 100%;
+  }
+  .nav-row {
+    width: 752px;
+    max-width: 100%;
+  }
+  .main {
+    width: 752px;
+    max-width: 100%;
+  }
+  .footer {
+    width: 752px;
+    max-width: 100%;
+  }
+  .pointer-fixed {
+    top: 83%;
+    left: 88%;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    width: 976px;
+    max-width: 100%;
+  }
+  .header-next-row .container {
+    width: 976px;
+    max-width: 100%;
+  }
+  .nav-row {
+    width: 976px;
+    max-width: 100%;
+  }
+  .main {
+    width: 976px;
+    max-width: 100%;
+  }
+  .footer {
+    width: 976px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    width: 1184px;
+    max-width: 100%;
+  }
+  .header-next-row .container {
+    width: 1184px;
+    max-width: 100%;
+  }
+  .nav-row {
+    width: 1184px;
+    max-width: 100%;
+  }
+  .main {
+    width: 1184px;
+    max-width: 100%;
+  }
+  .footer {
+    width: 1184px;
+    max-width: 100%;
+  }
+}

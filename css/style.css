@@ -1,0 +1,279 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  min-width: 476px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  display: block;
+  min-width: 576px;
+  padding: 0;
+}
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background-color: #fff;
+  box-shadow: 0px 3px 16px rgba(38, 38, 38, 0.16);
+}
+.header {
+  padding: 0;
+  margin: 0 auto;
+}
+.header__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+}
+.header__center--right {
+  display: flex;
+  float: right;
+}
+.right-buttom {
+  display: block;
+  height: 2.5rem;
+  width: 4.75rem;
+  border: solid 1px #1d1d1d;
+  background-color: white;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: #1d1d1d;
+}
+.right-buttom:hover {
+  background-color: #f2f2f2;
+  opacity: 0.9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+.header-next-row {
+  margin-top: 4.5rem;
+  background-image: url("../img/main.png");
+  background-size: cover;
+  position: relative;
+  height: 22.75rem;
+}
+.header-next-row .container {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.restaurant {
+  position: absolute;
+  background-color: #fff;
+  margin-top: 5rem;
+  padding: 2.375rem 2.375rem 2.875rem;
+  height: 12.75rem;
+}
+.restaurant h3 {
+  font-size: 2.25rem;
+  line-height: 2.625;
+  color: #1d1d1d;
+}
+.restaurant-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kitchen {
+  font-size: 0.875rem;
+  line-height: 1;
+  color: #626262;
+}
+.time {
+  background-color: #262626;
+  border-radius: 1rem;
+  font-size: 0.8125rem;
+  line-height: 0.9375;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.time:hover {
+  opacity: 0.8;
+}
+.header-row2 {
+  background-color: #fff;
+  border: 1px solid rgba(117, 117, 117, 0.2);
+}
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+.nav-row {
+  padding: 0;
+  margin: 0 auto;
+}
+.nav-row li {
+  display: inline;
+}
+.nav-row a {
+  text-decoration: none;
+  color: #626262;
+  display: inline-block;
+  padding: 2rem 1.25rem 1.8125rem;
+}
+.nav-row li:first-child a {
+  padding-left: 0;
+}
+.nav-row a:hover {
+  color: #327430;
+}
+main {
+  background-color: #fff;
+}
+.main {
+  padding: 0 0 2rem;
+  margin: 0 auto;
+}
+.main h2 {
+  padding: 3.5rem 0 2rem;
+  font-size: 1.375rem;
+  line-height: 2.125;
+  color: #1d1d1d;
+}
+.card {
+  display: inline-block;
+  margin: 0 0 3rem;
+  width: 100%;
+  border: 1px solid #f2f2f2;
+}
+.card:hover {
+  background-color: #f2f2f2;
+  opacity: 0.9;
+}
+.card-img-right {
+  float: right;
+}
+.card-body {
+  float: left;
+}
+.card-title {
+  padding: 1rem 0 5.1875rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #1d1d1d;
+}
+.card-price {
+  padding: 0 0 1rem 1rem;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.3125;
+  color: #1d1d1d;
+}
+footer {
+  background-color: #262626;
+}
+.footer {
+  padding: 0;
+  margin: 0 auto;
+}
+.footer__row1,
+.footer__row2,
+.footer__row3 {
+  border-bottom: 1px solid #f2f2f2;
+}
+.footer__row1 {
+  padding: 3.4375rem 0.5rem 2.5rem 0.5rem;
+}
+.footer__row2 {
+  padding: 2.125rem 0.5rem 3.625rem 0.5rem;
+}
+.first,
+.second,
+.third {
+  padding: 0;
+}
+.language,
+.language-select,
+.language-option {
+  height: 2.5rem;
+  width: 14.1875rem;
+  background-color: #3b3b3b;
+}
+.language {
+  padding-bottom: 2.25rem;
+}
+.language-select {
+  font-size: 0.8125rem;
+  line-height: 0.9375;
+  padding-left: 3.125rem;
+  background: url(/img/language.svg) 10% 50% no-repeat;
+  cursor: pointer;
+  color: #fff;
+}
+.social {
+  padding-top: 2.0625rem;
+}
+.social .social-text a {
+  font-size: 1rem;
+  line-height: 1.1875;
+  color: #49a144;
+}
+.social .social-text a:hover {
+  color: #fff;
+}
+.social-icons li {
+  display: inline;
+}
+.social-icons img:hover {
+  border: 1px solid #49a144;
+  border-radius: 10%;
+}
+.footer__row2 p,
+.footer__row2 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8125rem;
+  line-height: 0.9375;
+  margin: 0;
+  padding: 0.8125rem 0rem;
+}
+.footer__row3 {
+  padding: 2.5625rem 0.5rem;
+  text-align: center;
+}
+.footer__row3 .app-store {
+  padding-right: 2.5rem;
+}
+.footer__row4 {
+  padding: 2.625rem 0.5rem 2.5rem 0.5rem;
+}
+.footer__row4 .container,
+.footer__row4 .row,
+.footer__row4 .col-12,
+.footer__row4 p {
+  margin: 0;
+  padding: 0;
+}
+.footer__row4 p,
+.footer__row4 a {
+  color: #fff;
+  font-size: 0.6875rem;
+  line-height: 0.8125;
+}
+.footer__row4 a {
+  text-decoration: none;
+}
+.pointer-fixed {
+  position: fixed;
+  top: 85%;
+  right: 0;
+  bottom: 0;
+  left: 90%;
+}
+.pointer-fixed img:hover {
+  border-radius: 10%;
+}
